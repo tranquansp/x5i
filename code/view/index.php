@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>XINE</title>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link href = "public/css/bootstrap.min.css" rel = "stylesheet">
+                <link href = "public/css/styles.css" rel = "stylesheet">
+				<script src = "public/js/jquery-2.1.1.min.js"></script>
+				<script src = "public/js/bootstrap.js"></script>       
+				<div id="fb-root"></div>  
+        </head>
+        <body>
+ 
+                <div class = "navbar navbar-inverse navbar-fixed-top" role="navigation" >
+                <div class="navbar-inner ">
+                                 <div class = "container-fluid" style="max-width: 95%">
+                                     <a class="navbar-brand" rel="home" href="/" title="Cùng đi xem phim">
+										<img style="margin-top: -7px;" src="public/image/template/logo.png">
+									</a>
+
+                                <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+                                        <span class = "icon-bar"></span>
+                                        <span class = "icon-bar"></span>
+                                        <span class = "icon-bar"></span>
+                                </button>
+
+                                <div class = "collapse navbar-collapse navHeaderCollapse">
+                                        <ul class = "nav navbar-nav navbar-right">
+                                       
+                                                <li class = "active"><a href = "/dangchieu" title="Các bộ phim đang khởi chiếu "> Đang chiếu </a></li>
+                                                <li><a href = "/sapchieu" title="Các bộ phim sắp ra mắt ">Sắp chiếu </a></li>
+                                                <li><a href = "/chat" title="Chat với nguời lạ, rủ rê đi xem phim cùng, mảnh đất màu mỡ của FA ">Rủ nhau xem phim</a></li>                                                
+                                                <li>
+                       							  <form id = "submitform" class="navbar-form navbar-left" role="search" action="/index.htm" method="get">
+													<input type="text" name="textsearch" class="form-control" placeholder="Tìm phim ...">
+													<a id="buttonSearch" title="Tìm kiếm các bộ phim" onclick="submitA()"><img src = "public/image/template/search.png" /></a>					
+													</form>
+                                                </li>
+                                        </ul>
+                               
+                                </div>
+                               
+                        </div>
+                        </div>
+                </div>
+ 
+        <div class = "container" style="margin-top:80px;margin-bottom:60px;">
+                     <div class = "row">                
+						<div class = "col-lg-9">                      
+								<div class = "panel panel-default">
+									<div class = "panel-body">
+									
+									<div class = "col-lg-3">
+									<a href=""><img  width="100%" height="100%" src = "public/image/data/dtht.jpg" /></a>
+									</div>
+
+									<div class = "col-lg-9">
+											<!-- Page Header Begin-->
+											<div class = "page-header" style="margin-top:-10px;border-bottom:none;">
+															<!-- row Begin-->
+															<div class="row" >
+																<div class = "col-xs-12 col-sm-8 col-lg-8" style="margin-top:0px;">
+																	<h2><a style="text-decoration: none;font-size:70%;" href=""</a></h2>
+																</div>
+																<h2 style="font-size:90%;">
+																		<div class = "col-xs-2 col-sm-1 col-lg-1" style="padding-top:4px;">
+																		<img title="Số luợt bình luận bài viết" src="public/image/template/comment.png"/>
+																		<div class="aaa111" ></div>
+																		</div>	
+																		
+																		<div class = "col-xs-2 col-sm-1 col-lg-1" >
+																			<img title="Số luợt xem bài viết" src="public/image/template/view.png"/>
+																			<div>0</div>
+																		</div>
+																		
+																		<div class = "col-xs-2 col-sm-1 col-lg-1" style="padding-top:4px;">
+																				<div class="fb-like" data-href="" data-layout="button_count" 
+																				data-action="like" data-show-faces="true" data-share="false"></div>
+																		</div>
+																		
+																		<div class = "col-xs-6 col-sm-0 col-lg-0">
+																		</div>																
+																	</h2>
+															<!-- row End-->	
+															</div>
+												<!-- Page Header End-->
+												</div>
+										 
+										 	<div class = "col-xs-12 col-sm-12 col-lg-12" style="margin-top: -45px;margin-left: -15px;">
+												<hr/>
+												<div class="body-content" >
+													YES, HERE WE ARE !!
+												</div>
+												
+												<div style="margin-right:20px;margin-top:10px;text-align:right;">
+													<a  href="" class = "btn btn-info" data-dismiss = "modal">Xem chi tiết ...</a>
+												</div>	
+											</div>
+
+										 </div>  								                                
+									</div>
+								</div>    				              
+						</div>
+<!--
+col-xs-1 col-sm-2
+-->
+          
+          
+						<div class = " col-lg-3">						
+							<div class = "list-group" style="margin-left: -2px;margin-right: -2px;">
+									<div id="row">
+											<div class = " col-xs-12 col-sm-6 col-lg-12" style="padding-left: 2px;padding-right: 2px;">
+												<div class = "list-group-item" style="margin-bottom: 20px;background-color:#819FF7;color:#FFFFFF;">
+													<p class = "list-group-item-text"><font color="#3B0B17" size="5"><strong> Mẹo : </strong></font>Vào <a href="facebook.com" target="_blank" style="color:#0B0B61"><strong>Facebook</strong></a> để có thể review những bộ phim bạn đã xem và chia sẻ cùng bạn bè.</p>
+													<p>Nếu không vào đuợc,<a href="/" target="_blank" style="color:#0B0B61"><strong>xem hướng dẫn tại đây</strong></a></p>
+												</div>
+											</div>
+											<div class = " col-xs-12 col-sm-6 col-lg-12"  style="padding-left: 2px;padding-right: 2px;">
+												<div class = "list-group-item" style="margin-bottom: 20px;background-color:#F8E0F7;text-align:center;">
+													<h4 class = "list-group-item-heading"><img src = "public/image/template/facebook-icon.png" />Facebook Page</h4>
+													<hr style="margin-top:10px;margin-bottom:12px;"/>
+													<p class = "list-group-item-text">Hãy Like để ủng hộ <a href="/"><strong>CungDiXiNe</strong></a> bạn nhé</p>
+												</div>
+											</div>
+											<div class = " col-xs-12 col-sm-6 col-lg-12" style="padding-left: 2px;padding-right: 2px;">
+												<div class = "list-group-item" style="margin-bottom: 20px;background-color:#F2F2F2;text-align:center;">
+													<h4 class = "list-group-item-heading"><a href="/chat" target="_blank" >Cùng nhau xem phim</a></h4>
+													<hr style="margin-top:8px;margin-bottom:8px;"/>
+													<p class = "list-group-item-text">Mảnh đất màu mỡ của các FA.Rủ nguời lạ xem phim bạn nhé ^^</p>	
+												</div>
+											</div>
+											<div class = " col-xs-12 col-sm-6 col-lg-12" style="padding-left: 2px;padding-right: 2px;">
+												<div class = "list-group-item" style="margin-bottom: 20px;background-color:#FAFAFA;color:#642EFE;text-align:center;">
+													<h4 class = "list-group-item-heading"><strong>Các Rạp Chiếu Phim</strong></h4>
+													<hr style="margin-top:8px;margin-bottom:8px;"/>
+													<p class = "list-group-item-text"><a href="https://www.galaxycine.vn" target="_blank"><img title="Rạp Galaxy" width="100%" src = "public/image/cinema/galaxy.png" /></a></p>
+													<p class = "list-group-item-text"><a href="https://www.cgv.vn" target="_blank"><img  title="Rạp Lotte"  width="100%" src = "public/image/cinema/lotte.jpg" /></a></p>
+													<p class = "list-group-item-text"><a href="http://lottecinemavn.com" target="_blank"><img  title="Rạp cgv"  width="100%" src = "public/image/cinema/cgv.png" /></a></p>
+													<p class = "list-group-item-text"><a href="http://www.platinumcineplex.vn" target="_blank"><img  title="Rạp Platinum Cineplex" width="100%" src = "public/image/cinema/vincom.png" /></a></p>	
+												</div>
+											</div>
+
+									<!-- end row-->	
+									</div>
+							</div>							
+						</div>
+                       
+                       
+                       
+                       
+					</div>  
+			</div>
+			<div class = "navbar navbar-default navbar-fixed-bottom">
+		   
+			</div>
+            
+            <!-- Contact Page-->
+			<div class = "modal fade" id = "contact" role = "dialog">
+				<div class = "modal-dialog">
+					<div class = "modal-content">
+						<div class = "modal-header">
+							<h4>Contact Tech Site</h4>
+						</div>
+						<div class = "modal-body">
+							<p>Test Trang Lien He</p>
+						</div>
+						<div class = "modal-footer">
+					<a class = "btn btn-primary" data-dismiss = "modal">Dong Y</a>    
+							<a class = "btn btn-default" data-dismiss = "modal">Close</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+						
+			<div class = "navbar navbar-default navbar-fixed-bottom">
+		   
+					<div class = "container">
+							<p class = "navbar-text pull-left"><a href = "#contact" data-toggle="modal">Contact</a> · Giới thiệu · FAQ · Điều khoản · RSS · Cách vào Facebook </p>
+							
+
+						
+					</div>
+		   
+			</div>               
+        </body>
+</html>
